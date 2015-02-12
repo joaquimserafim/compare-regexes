@@ -1,6 +1,6 @@
 {
   "name": "compare-regexes",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "compare if two RegExp Objects are equal",
   "main": "index.js",
   "files": [
