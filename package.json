@@ -1,0 +1,44 @@
+{
+  "name": "compare-regexes",
+  "version": "0.0.0",
+  "description": "compare if two RegExp Objects are equal",
+  "main": "index.js",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js"
+  ],
+  "scripts": {
+    "test": "istanbul cover tape test.js",
+    "jshint": "jshint -c .jshintrc *.js",
+    "code-style": "jscs -p google *.js",
+    "check-coverage": "istanbul check-coverage --statements 100 --functions 100 --lines 100 --branches 100",
+    "open-coverage": "open coverage/lcov-report/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joaquimserafim/compare-regexes.git"
+  },
+  "keywords": [
+    "regexes",
+    "regex",
+    "compare",
+    "equal"
+  ],
+  "author": "@joaquimserafim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaquimserafim/compare-regexes/issues"
+  },
+  "homepage": "https://github.com/joaquimserafim/compare-regexes",
+  "devDependencies": {
+    "istanbul": "^0.3.5",
+    "jscs": "^1.11.3",
+    "jshint": "^2.6.0",
+    "pre-commit": "^1.0.2",
+    "tape": "^3.5.0"
+  },
+  "dependencies": {
+    "is.regexp": "^1.0.2"
+  }
+}
