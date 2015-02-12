@@ -16,7 +16,7 @@ function compare(regex1, regex2) {
     for (var i = 0, prop; i < props.length; i++) {
       prop = props[i];
       if (regex1[prop] !== regex2[prop]) {
-          return false;
+        return false;
       }
     }
     return true;

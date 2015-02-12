@@ -40,5 +40,11 @@
   },
   "dependencies": {
     "is.regexp": "^1.0.2"
-  }
+  },
+  "pre-commit": [
+    "jshint",
+    "code-style",
+    "test",
+    "check-coverage"
+  ]
 }
